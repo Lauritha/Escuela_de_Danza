@@ -1,0 +1,206 @@
+img{
+	max-width: 100%;
+}
+body{
+	margin: 20px 0px;
+}
+/*estilos de header*/
+header{
+	background-color: #ffffff;
+	color: #13136A;
+	text-align: center;
+	padding: 20px;
+	font-size: 14px;
+}
+header li{
+	display: inline;
+	list-style-type: none; 
+	margin: 50px;
+	font-size: 18px;
+}
+header ul{
+	margin-top: 30px;
+}
+header a{
+	text-decoration: none;
+}
+/*estilos de introduccion*/
+.introduccion{
+	width: 800px;
+	height: 100px;
+}
+.introduccion img{
+	width: 150px;
+	height: 110px;
+}
+.introduccion{
+	text-align: center;
+	padding-top: 70px;
+	font-size: 25px;
+	margin-left: 300px;
+	font-weight: 500;
+}
+.intro button{
+	color: #ffffff;
+	background-color: #212A5E;
+	border: none;
+	padding: 20px;
+	margin: 150px 200px 100px 560px;
+	font-size: 14px;
+	font-weight: 200;
+	width: 280px;
+	border-radius: 5px;
+}
+.texto{
+	color: #ffffff;
+}
+.recepcion button{
+	color: #ffffff;
+	background-color: #050317;
+	border: none;
+	padding: 15px;
+	margin-top: 20px;
+	font-size: 10px;
+	font-weight: lighter;
+	width: 130px;
+}
+.texto h1{
+	font-size: 60px;
+	color: #E7E4E4;
+	text-shadow: 0px 0px 5px;
+}
+.texto p{
+	width: 300px;
+	font-size: 14px;
+	color: #ffffff;
+}
+.recepcion{
+	width: 100%;
+	height: 400px;
+	background-size: cover;
+	background-image: url("../img/dance_1.jpg");
+	padding-top: 20px;
+	padding-left: 100px;
+	white-space: pre-line;
+}
+/*instructores*/
+.instructores button{
+	color: #ffffff;
+	background-color: #100F31;
+	border: none;
+	padding: 30px;
+	font-size: 20px;
+	font-weight: lighter;
+	width: 500px;
+	z-index: 100;
+	position: absolute;
+	top: 238px;
+	left: 425px;
+}
+#fondo1{
+	background-image: url("../img/instructor_4.jpg");
+	height: 320px;
+	width: 50%;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
+}
+#fondo2{
+	background-image: url("../img/profesor_9.jpg");
+	height: 320px;
+	width: 50%;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: right;
+}
+.instructores{
+	text-align: center;
+	position: relative;
+	border: solid 1px black;
+}
+/*estilos del articulo*/
+article{
+	font-style: italic;
+	font-size: 25px;
+	font-weight: 400;
+	text-align: center;
+}
+.verso{
+	width: 850px;
+	margin: 90px 220px;
+}
+/*estilos del ubicacion, mapa*/
+.mapa{
+	background-color: #212A5E;
+	padding: 70px;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 200;
+}
+.mapa img{
+	width: 470px;
+	height: 280px;
+	margin-left: 200px;
+}
+.mapa h3{
+	margin: 30px 0px 0px 0px;
+	font-size: 18px;
+}
+.mapa h5{
+	margin-top: 10px;
+	font-weight: 200;
+}
+/*estilos de contacto*/
+.contacto{
+	background-color: #ffffff;
+	text-align: center;
+}
+.nombre input{
+	width: 400px;
+	height: 40px;
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+.formulario h1{
+	color: #212A5E;
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-align: left;
+}
+.formulario{
+	margin-left: 100px;
+	z-index: 2000;
+	margin-top: 50px;
+}
+.mensaje input{
+	width: 400px;
+	height: 150px;
+	font-size: 16px;
+}
+.email input{
+	width: 400px;
+	height: 40px;
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+.contacto button{
+	color: #ffffff;
+	background-color: #100F31;
+	border: none;
+	padding: 15px;
+	font-size: 20px;
+	font-weight: lighter;
+	width: 400px;
+	margin-top: 15px;
+	height: 50px;
+}
+/*estilos de footer*/
+footer{
+	background-color: #212A5E;
+	color: #ffffff;
+	font-size: 12px;
+	padding: 20px;
+}
