@@ -1,0 +1,152 @@
+img{
+	max-width: 100%;
+}
+body{
+	text-align: center;
+	margin: 0;
+}
+/*estilos de header*/
+header{
+	background-color: #ffffff;
+	color: #13136A;
+	text-align: center;
+	padding: 20px;
+	font-size: 14px;
+}
+header li{
+	display: inline;
+	list-style-type: none; 
+	margin: 50px;
+	font-size: 18px;
+}
+header ul{
+	margin-top: 30px;
+}
+header a{
+	text-decoration: none;
+}
+/*estilos de nosotros*/
+.nosotros{
+	background-image: url("../img/dance_7.jpg");
+	height: 400px;
+	background-repeat: repeat;
+	background-size: cover;
+	background-position: -30px -70px;
+}
+.sobrenosotros{
+	width: 550px;
+	height: 180px;
+	background-color: #2A2828;
+	opacity: 0.6;
+	color: #ffffff;
+	padding: 40px;
+	text-align: center;
+	margin-left: 380px;
+	margin-top: 120px;
+}
+/*estilos de pilar*/
+.pilares{
+	background-image: url("../img/cubes.png");
+}
+.pilar{
+	text-align: center;
+	width: 370px;
+	margin: 50px 0px 30px 30px;
+	padding: 60px;
+	box-sizing: border-box;
+	color: #B5B4B4;
+}
+.pilar hr{
+	margin: 40px 0px;
+}
+/*estilos de instructores*/
+.instructores h1{
+	font-size: 30px;
+	font-weight: 600;
+	margin: 50px 0px;
+	text-align: center;
+}
+.instructores img{
+	height: 200px;
+	width: 240px;
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+.instrucores h3 {
+	color: #000000;
+	font-size: 15px;
+	
+}
+.instructores p {
+	width: 190px;
+	font-size: 12px;
+	margin-top: 10px;
+}
+.instructores{
+	text-align: left;
+	margin-left: 90px;
+	padding: 30px;
+}
+/*estilo de frase*/
+.frase{
+	font-style: italic;
+	font-size: 25px;
+	font-weight: 400;
+	text-align: center;
+	margin: 90px 0px;
+	background-color: #CBC8C8;
+	padding: 120px;
+}
+/*estilos de contacto*/
+.contacto{
+	background-color: #ffffff;
+	text-align: center;
+}
+.nombre input{
+	width: 400px;
+	height: 40px;
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+.formulario h1{
+	color: #212A5E;
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-align: left;
+}
+.formulario{
+	margin-left: 100px;
+	z-index: 2000;
+	margin-top: 50px;
+}
+.mensaje input{
+	width: 400px;
+	height: 150px;
+	font-size: 16px;
+}
+.email input{
+	width: 400px;
+	height: 40px;
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+.contacto button{
+	color: #ffffff;
+	background-color: #100F31;
+	border: none;
+	padding: 15px;
+	font-size: 20px;
+	font-weight: lighter;
+	width: 400px;
+	margin-top: 15px;
+	height: 50px;
+}
+/*estilos de footer*/
+footer{
+	background-color: #212A5E;
+	color: #ffffff;
+	font-size: 12px;
+	padding: 20px;
+	text-align: left;
+}
