@@ -1,0 +1,125 @@
+img{
+	max-width: 100%;
+}
+body{
+	margin: 20px 0px;
+}
+/*estilos de header*/
+header{
+	background-color: #ffffff;
+	color: #13136A;
+	text-align: center;
+	padding: 20px;
+	font-size: 14px;
+}
+header li{
+	display: inline;
+	list-style-type: none; 
+	margin: 50px;
+	font-size: 18px;
+}
+header ul{
+	margin-top: 30px;
+}
+header a{
+	text-decoration: none;
+}
+/*estilos de blog*/
+.blog h1{
+	text-align: center;
+	margin: 20px;
+}
+.blog{
+	background-color: #F1EDED;
+	padding: 80px;
+	padding-left: 150px;
+}
+.articulo{
+	margin-bottom: 40px;
+	background-color: #D5D2D2;
+	width: 700px;
+	height: 170px;
+	padding: 20px;
+	margin-left: 0;
+}
+.articulo h3{
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.articulo button{
+	color: #ffffff;
+	background-color: #212A5E;
+	border: none;
+	padding: 5px;
+	font-size: 14px;
+	font-weight: 200;
+	width: 160px;
+	height: 40px;
+	border-radius: 5px;
+	margin: 10px 0px;
+}
+.articulo p{
+	font-size: 12px;
+}
+.blog img{
+	width: 120px:
+	height: 100px;
+	margin-right: 0;
+}
+.img{
+	width: 250px;
+	height: 180px;
+}
+/*estilos de contacto*/
+.contacto{
+	background-color: #ffffff;
+	text-align: center;
+}
+.nombre input{
+	width: 400px;
+	height: 40px;
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+.formulario h1{
+	color: #212A5E;
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-align: left;
+}
+.formulario{
+	margin-left: 100px;
+	z-index: 2000;
+	margin-top: 50px;
+}
+.mensaje input{
+	width: 400px;
+	height: 150px;
+	font-size: 16px;
+}
+.email input{
+	width: 400px;
+	height: 40px;
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+.contacto button{
+	color: #ffffff;
+	background-color: #100F31;
+	border: none;
+	padding: 15px;
+	font-size: 20px;
+	font-weight: lighter;
+	width: 400px;
+	margin-top: 15px;
+	height: 50px;
+}
+/*estilos de footer*/
+footer{
+	background-color: #212A5E;
+	color: #ffffff;
+	font-size: 12px;
+	padding: 20px;
+	text-align: left;
+}
