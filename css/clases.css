@@ -1,1 +1,157 @@
-/* Inserta tu codigo aqui */
+img{
+	max-width: 100%;
+}
+body{
+	margin: 20px 0px;
+}
+/*estilos de header*/
+header{
+	background-color: #ffffff;
+	color: #13136A;
+	text-align: center;
+	padding: 20px;
+	font-size: 14px;
+}
+header li{
+	display: inline;
+	list-style-type: none; 
+	margin: 50px;
+	font-size: 18px;
+}
+header ul{
+	margin-top: 30px;
+}
+header a{
+	text-decoration: none;
+}
+/*estilos de clases*/
+.clases{
+	background-color: #EBE9E9;
+	padding: 80px;
+	box-sizing: content-box;
+}
+.clases h1{
+	text-align: center;
+	font-size: 18px;
+	margin: 40px 0px 40px 0px;
+}
+.ballet{
+	background-image: url("../img/dance_12.jpg");
+	width: 320px;
+	height: 500px;
+	background-position: -50px -20px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-bottom: 40px;
+}
+.dance_1{
+	background-image: url("../img/hiphop-lesson.jpg");
+	width: 320px;
+	height: 500px;
+	background-repeat: no-repeat;
+	margin-bottom: 40px;
+}
+.jazz{
+	background-image: url("../img/lirical-jazz.jpg");
+	width: 320px;
+	height: 480px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-bottom: 40px;
+}
+.arabic{
+	background-image: url("../img/arabe.jpg");
+	width: 320px;
+	height: 500px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.kids{
+	background-image: url("../img/little.jpg");
+	width: 320px;
+	height: 500px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.yoga{
+	background-image: url("../img/yoga.jpg");
+	width: 320px;
+	height: 500px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.dance{
+	color: #ffffff;
+	text-align: center;
+	background-color: #4A4949;
+	width: 250px;
+	height: 90px;
+	padding: 20px;
+	position: relative;
+	top: 180px;
+	left: 35px;
+	opacity: 0.5;
+}
+.dance h4{
+	font-size: 14px;
+	font-weight: 300;
+	margin-bottom: 10px;
+}
+.dance p{
+	font-size: 12px;
+	font-weight: 300;
+	margin-bottom: 10px;
+}
+/*estilos de contacto*/
+.contacto{
+	background-color: #ffffff;
+	text-align: center;
+}
+.nombre input{
+	width: 400px;
+	height: 40px;
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+.formulario h1{
+	color: #212A5E;
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-align: left;
+}
+.formulario{
+	margin-left: 100px;
+	z-index: 2000;
+	margin-top: 50px;
+}
+.mensaje input{
+	width: 400px;
+	height: 150px;
+	font-size: 16px;
+}
+.email input{
+	width: 400px;
+	height: 40px;
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+.contacto button{
+	color: #ffffff;
+	background-color: #100F31;
+	border: none;
+	padding: 15px;
+	font-size: 20px;
+	font-weight: lighter;
+	width: 400px;
+	margin-top: 15px;
+	height: 50px;
+}
+/*estilos de footer*/
+footer{
+	background-color: #212A5E;
+	color: #ffffff;
+	font-size: 12px;
+	padding: 20px;
+	text-align: left;
+}
